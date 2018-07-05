@@ -1,0 +1,28 @@
+<view class='container'>
+  <view class='same'>
+    <text>当前状态</text>
+    <text class='right fontColor'>生效中</text>
+  </view>
+  <view class='same'>
+    <text>开启时间</text>
+    <text class='right'>2018年6月26日</text>
+  </view>
+  <view class='same'>
+    <text>开户名称</text>
+    <text class='right'>腾放科技</text>
+  </view>
+  <view class='same'>
+    <text>服务详情</text>
+    <text class='right'>机场大巴出行码</text>
+  </view>
+  <view class='same NoLine' bindtap='RideRecord'>
+    <text>乘车记录</text>
+    <view class='right'>
+   <image src='/images/pic5.png'></image>
+   </view>
+  </view>
+</view>
+<view  class='StopService flexRow'>
+    <text class='StopButton' bindtap='StopService'>暂停服务</text>
+</view>
+  

@@ -1,0 +1,12 @@
+<view class="container flexCol">
+    <view class='flexRow'>
+      <image src='/images/pic3.png' class='pic'></image>
+      <text class='question'>如何支付乘车费？</text>
+      <image src='/images/pic5.png' class='sign'></image>
+    </view>
+    <view class='flexRow'>
+      <image src='/images/pic3.png'  class='pic'></image>
+      <text class='question'>微信没有余额怎么办？</text>
+      <image src='/images/pic5.png' class='sign'></image>
+    </view>
+</view>

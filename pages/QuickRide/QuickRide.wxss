@@ -1,0 +1,92 @@
+/*整体  */
+
+.btnContent {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 乘车图片 */
+
+.carIcon {
+  width: 100%;
+  height: 640rpx;
+  margin-bottom: 38rpx;
+}
+
+/*龙嘉机场出行码  */
+
+.signName {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+
+.sign {
+  font-size: 28rpx;
+  color: #666;
+  margin-top: 20rpx;
+}
+
+/* 开通服务 */
+
+.passRide {
+  width: 90%;
+  height: 100rpx;
+  margin: 50rpx 0 0;
+  border-radius: 8rpx;
+  color: #fff;
+  font-size: 32rpx;
+  background: -webkit-linear-gradient(0deg, #1653c7, #2215a6);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*授权协议*/
+
+.pull-left {
+  position: relative;
+  width: 88%;
+  margin-top: 90rpx;
+}
+/*授权协议本文*/
+
+.authority {
+  width: 88%;
+  font-size: 26rpx;
+  text-indent: 40rpx;
+  line-height: 40rpx;
+}
+
+checkbox .wx-checkbox-input {
+  /* 自定义样式.... */
+  border-radius: 3rpx;
+  height: 26rpx;
+  width: 26rpx;
+  margin-top: -4rpx;
+}
+
+/* checkbox选中时样式 */
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  /* 自定义样式.... */
+  background-color: #1653c6;
+  border: 1rpx solid #1653c6;
+}
+/*请先阅读并同意协议  */
+.tip{
+  position: absolute;
+  top: -60rpx;
+  left: -20rpx;
+  width: 40%;
+  height: 80rpx;
+  line-height: 50rpx;
+  font-size: 24rpx;
+  text-align: center;
+  color: #fff;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAa4AAABkCAYAAADe8dT8AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3FpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowNWM5NWYxMC0wOGU3LWIzNGEtODFjYi02MjE2ZmQ1M2Q4ZmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDJBODNEMjc3QTgyMTFFOEE1M0FCOEY2MkU2NTk2QTEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDJBODNEMjY3QTgyMTFFOEE1M0FCOEY2MkU2NTk2QTEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmE1NTUyNmExLWNiYTgtZmQ0OC1iYTk2LTNhZjJmODliMDg2YyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowNWM5NWYxMC0wOGU3LWIzNGEtODFjYi02MjE2ZmQ1M2Q4ZmEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7UUE3HAAACSElEQVR42uzbS07CUBSA4V56OxHHDlwVxFW4A1kBLMFd6BqcuCAtk1IrhUKIgYmi3Bu/L+H9GJyQ/DlQwu3kpdhZldXmsmybeVtWDwUAXEisl4vV+GrWX6/e6/394Ui4OuMCICHhMFyjgwcmogVAgrqhUdtNrL/VbjetJ7MBIEXN9bhvVIj1cr9x2bQAyGHz2oRrbhYAZGIebu5ebVsAZGNkBAAIFwAIFwAIFwDCBQDCBQDCBYBwAYBwAYBwASBcACBcACBcAAgXAAgXAAgXAMIFAMIFAMIFgHABgHABgHABIFwAIFwAIFwACBcACBcACBcAwgUAwgUAwgWAcAGAcAGAcAEgXAAgXAAgXAAIFwAIFwAIFwDCBQDCBQDCBYBwAYBwAYBwASBcACBcACBcAAgXAAgXAAgXAMIFAMIFAMIFgHABgHABgHABIFwAIFwAIFwACBcACBcACBcAwgUAwgUAwgWAcAGAcAGAcAEgXAAgXAAgXAAIFwAIFwAIFwD/NVxl2yyMAYAcxHr52G9cM6MAIBP3u68Kg1kAkLhNq0b9eWyb/jQ1EwBSVL3V0/WpCB9dEQ/ufx5q1hkRAKltWjvHjioMDtgA4NJivVwUR37KiieePysyOGhjvTI23SjEs79x17VF+IX3BeDHcv8fV7WO1+rs0ToddACEK6F4iRaAcOUSr+H1ogUgXH8Yr+578RqiVfk4AAhX8vESLQDhyiZeogUgXNnES7QAhCu5eA1HCYoWgHBlI36Nl2gBCFc28RItgPx9CjAAQep7NeY8t9UAAAAASUVORK5CYII=") no-repeat;
+    background-size: 100%;
+}

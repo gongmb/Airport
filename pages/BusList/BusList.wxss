@@ -1,0 +1,71 @@
+page {
+  background-color: #fafafa;
+}
+
+.nav {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+}
+
+.default {
+  line-height: 100rpx;
+  text-align: center;
+  flex: 1;
+  color: #000;
+  font-weight: bold;
+  font-size: 28rpx;
+}
+
+.color {
+  line-height: 100rpx;
+  text-align: center;
+  color: #1d7ce8;
+  flex: 1;
+  font-weight: bold;
+  font-size: 28rpx;
+  border-bottom: 4rpx solid #1d7ce8;
+}
+
+/*至龙嘉机场方向  */
+
+.show {
+  height: 180rpx;
+  line-height: 180rpx;
+  background: #fff;
+  display: flex;
+  border-bottom: 1rpx solid #efefef;
+}
+
+/*至市区方向  */
+
+.hidden {
+  display: none;
+  height: 180rpx;
+  line-height: 180rpx;
+}
+
+/*左版面  */
+
+.left {
+  justify-content: center;
+  margin-left: 40rpx;
+  width: 72%;
+  line-height: 60rpx;
+  font-size: 28rpx;
+}
+
+.left :first-child {
+  font-weight: bold;
+  font-size: 30rpx;
+}
+
+/*有版面  */
+
+.right {
+  margin-right: 40rpx;
+  width: 26%;
+  font-size: 28rpx;
+  color: #1e7deb;
+  text-align: center;
+}

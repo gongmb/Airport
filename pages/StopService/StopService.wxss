@@ -1,0 +1,75 @@
+page {
+  background: #f7f7f7;
+}
+
+/*整体白色框架  */
+
+.container {
+  margin-top: 40rpx;
+  width: 100%;
+  background: #fff;
+  height: 600rpx;
+  font-size: 30rpx;
+}
+
+.container .same {
+  font-size: 28rpx;
+}
+
+/*状态蓝色字体  */
+
+.fontColor {
+  color: #217ce7;
+}
+
+/*相同高度的view  */
+
+.same {
+  width: 84%;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #e3e3e3;
+}
+
+/*右版面统一*/
+
+.right {
+  width: 300rpx;
+  margin-left: 190rpx;
+  text-align: right;
+}
+
+.NoLine {
+  border-bottom: none;
+}
+
+/*乘车记录角标  */
+
+.NoLine image {
+  width: 28rpx;
+  height: 36rpx;
+}
+
+/*暂停服务  */
+
+.StopService {
+  width: 100%;
+  margin-top: 60rpx;
+  display: flex;
+  color: #fff;
+  font-size: 32rpx;
+  box-sizing: border-box;
+ 
+  justify-content: center;
+  align-items: center;
+}
+
+.StopButton {
+  width: 80%;
+  height: 90rpx;
+   border-radius: 8rpx;
+  line-height: 80rpx;
+  background: #1d7ce8;
+  text-align: center;
+}

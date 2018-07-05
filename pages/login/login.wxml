@@ -1,0 +1,12 @@
+<view class="container">
+  <image src='/images/login.png'></image>
+  <view class='Name flexCol'>
+    <text class='Bus'>机场巴士出行码</text>
+    <text class='company'>本服务由吉林省腾放科技提供</text>
+  </view>
+  <view bindtap='authority' class='authority'>
+    <view>
+      <text>授权服务</text>
+    </view>
+  </view>
+</view>

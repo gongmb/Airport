@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/RideRecord/RideRecord",
+    "pages/DetailedRoute/DetailedRoute",
+    "pages/BusList/BusList",
+    "pages/StopService/StopService",
+    "pages/DetailedRecord/DetailedRecord",
+    "pages/QRcode/QRcode",
+    "pages/CommonProblem/CommonProblem",
+    "pages/IndividualCenter/IndividualCenter",
+    "pages/QuickRide/QuickRide",
+    "pages/footer-template/footer-template",
+    "pages/UsageProtocol/UsageProtocol",
+    "pages/Notice/Notice",
+    "pages/DetailedRuestions/DetailedRuestions"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1e7ce9",
+    "navigationBarTitleText": "机场巴士出行码",
+    "navigationBarTextStyle": "#fff"
+  }
+}

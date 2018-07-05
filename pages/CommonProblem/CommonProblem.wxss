@@ -1,0 +1,30 @@
+/*问好标志  */
+.container .pic{
+  width: 46rpx;
+  height: 46rpx;
+  margin:27rpx 0 27rpx 27rpx; 
+
+}
+/*角标  */
+.container .sign{
+  width: 24rpx;
+  height: 32rpx;
+  margin:34rpx 40rpx 34rpx 0; 
+}
+/*每条问题框 */
+.container view{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+/*问题？*/
+.question{
+  width: 600rpx;
+}
+.container text{
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 40rpx;
+  border-bottom: 1rpx solid #f1f1f1;
+}
+

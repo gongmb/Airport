@@ -1,0 +1,109 @@
+page {
+  background: #f1f1f1;
+}
+
+/*路线方向名称*/
+
+.LineName {
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  font-size: 32rpx;
+  color: #1d7ce8;
+}
+
+.container .spacing {
+  margin-bottom: 20rpx;
+}
+
+/*发车时间框架  */
+
+.DepartureTime {
+  width: 100%;
+  background: #fff;
+}
+
+/*发车时间  */
+
+.header {
+  font-size: 30rpx;
+  line-height: 80rpx;
+  height: 80rpx;
+  border-bottom: 2rpx dashed #dadada;
+}
+
+.header text {
+  margin-left: 20rpx;
+}
+
+/*蓝色圆点  */
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+.dotA {
+  background: #06f;
+}
+
+/*注：早高峰期客满即走  */
+
+.note {
+  color: #1d7ce8;
+  font-size: 28rpx;
+  margin: 10rpx 0 10rpx 480rpx;
+}
+
+/*时间表  */
+
+.Time {
+  width: 100%;
+  font-size: 28rpx;
+}
+
+.Time view {
+  margin-top: 20rpx;
+}
+
+/*时间段  */
+
+.SameWidth  :first-child {
+  width: 34%;
+  margin-left: 60rpx;
+}
+
+/*每几小时一班  */
+
+.SameWidth  :nth-child(2) {
+  width: 28%;
+}
+
+/*发车状况  */
+
+.SameWidth  :last-child {
+  width: 22%;
+  margin-left: 30rpx;
+}
+
+/*具体线路  */
+
+.Line {
+  justify-content: center;
+  width: 100%;
+  font-size: 28rpx;
+  line-height: 80rpx;
+}
+
+.Line text {
+  padding: 10rpx;
+}
+
+.blueLine {
+  color: #1d7ce8;
+}

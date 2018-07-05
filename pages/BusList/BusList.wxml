@@ -1,0 +1,24 @@
+<view class="body">
+  <view class="nav bc_white">
+    <view class="{{airPort?'color':'default'}}" bindtap="airPort">至龙嘉机场</view>
+    <view class="{{city?'color':'default'}}" bindtap="city">至市区</view>
+  </view>
+  <block>
+    <view class="{{airPort?'show':'hidden'}}">
+      <view class='flexCol left'>
+        <text>长春——龙嘉机场</text>
+        <text>朝阳区人民广场至机场方向</text>
+      </view>
+      <view class='right' bindtap='ClickMore'>点击查看更多</view>
+    </view>
+  </block>
+  <block>
+    <view class="{{city?'show':'hidden'}}">
+      <view class='flexCol left'>
+        <text>龙嘉机场——市区</text>
+        <text>机场方向至长春市区高速公路客运站</text>
+      </view>
+      <view class='right' bindtap='ClickMore'>点击查看更多</view>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,54 @@
+page {
+  background: #f7f7f7;
+}
+/*整体白色框架  */
+.container {
+  margin-top: 40rpx;
+  width: 100%;
+  background: #fff;
+  height: 600rpx;
+  font-size: 30rpx;
+}
+
+/*机场大巴线路名称  */
+
+.BusLine {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1rpx solid #e3e3e3;
+}
+
+.container .same {
+  font-size: 28rpx;
+}
+
+/*相同高度的view  */
+
+.same {
+  width: 84%;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #e3e3e3;
+}
+
+/*右版面统一*/
+
+.right {
+  width: 300rpx;
+  margin-left: 190rpx;
+  text-align: right;
+}
+
+.NoLine {
+  border-bottom: none;
+}
+.Money{
+  width: 84%;
+  text-align: right;
+  margin-bottom: 20rpx;
+  color: #217ce7;
+}

@@ -1,0 +1,80 @@
+page {
+  background: #f1f1f1;
+}
+
+/*用户信息框架  */
+
+.UserInformation {
+  width: 100%;
+  height: 480rpx;
+  background: #fff;
+}
+
+/*背景图  */
+
+.UserInformation .pic {
+  width: 100%;
+  height: 280rpx;
+}
+
+/**用户信息**/
+
+.userinfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -100rpx;
+}
+
+.userinfo-avatar {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px 1px #ddd;
+  z-index: 1;
+  background: #fff;
+}
+
+.userinfo-nickname {
+  width: 100%;
+  height: 30rpx;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 32rpx;
+  font-family: sans-serif;
+}
+/*个人中心分类  */
+.classify{
+  width: 100%;
+  height: 400rpx;
+  background: #fff;
+  margin-top: 40rpx;
+}
+.classify .pic{
+  width: 44rpx;
+  height: 44rpx;
+  margin:28rpx 0 28rpx 60rpx; 
+
+}
+.classify .sign{
+  width: 24rpx;
+  height: 32rpx;
+  margin:32rpx 0 32rpx 360rpx; 
+}
+.classify view{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.classify text{
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 80rpx;
+}
+

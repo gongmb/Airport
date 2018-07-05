@@ -1,0 +1,38 @@
+.container image{
+  width: 540rpx;
+  height: 620rpx;
+  margin-top: 100rpx;
+}
+/*项目名称  */
+.Name{
+  width: 60%;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.Bus{
+   font-size: 32rpx;
+  font-weight: bold;
+}
+.company{
+  font-size: 28rpx;
+  margin-top: 40rpx;
+
+}
+/*授权服务  */
+.authority {
+  width:60%;
+  height: 90rpx;
+  margin-top: 100rpx;
+  display: flex;
+  color: #fff;
+  font-size: 32rpx;
+  box-sizing: border-box;
+  border-radius: 6rpx;
+  padding: 0 5%;
+  align-items: center;
+  background: -webkit-linear-gradient(0deg, #1653c7, #2215a6);
+}
+
+.authority view {
+  margin: 0 auto;
+}

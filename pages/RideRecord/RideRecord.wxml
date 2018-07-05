@@ -1,0 +1,30 @@
+<view class='RideRecord flexCol'>
+  <!--日期及当前消费  -->
+  <view class='Consumption_date flexRow'>
+    <picker mode="date" value="{{date_start}}" start="{{date_start}}" bindchange="bindDateChange">
+      <view class="date_start date">
+        {{date_start}}
+      </view>
+    </picker>
+    <text class='Font'>至</text>
+    <picker mode="date" value="{{date_end}}" start="{{date_end}}" bindchange="bindDateChange_end">
+      <view class="date_end date">
+        {{date_end}}
+      </view>
+    </picker>
+    <text class='money'>当前消费：2333元</text>
+  </view>
+  <!--乘车记录  -->
+  <block>
+    <view class='take flexCol' bindtap='detail'>
+      <view class='RideDate flexRow'>
+        <text class='time'>2018/6/26</text>
+        <text class='state'>已支付</text>
+      </view>
+      <view class='BUS flexRow'>
+        <text class='BusName'>机场大巴1号线</text>
+        <text class='amount'>￥20.00</text>
+      </view>
+    </view>
+  </block>
+</view>

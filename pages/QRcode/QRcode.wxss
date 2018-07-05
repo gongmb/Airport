@@ -1,0 +1,91 @@
+/* 页脚样式   */
+@import "../footer-template/footer-template.wxss";
+
+/*背景  */
+
+page {
+  background: #1d7ce8;
+  background-size: 100%;
+}
+
+/*主体内容*/
+
+.content {
+  width: 92%;
+  height: 1020rpx;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10rpx;
+}
+
+/*机场巴士出行码文字 */
+
+.noticeContainer {
+  background: #86d0ff;
+  width: 100%;
+  height: 80rpx;
+  color: #1552c5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 5%;
+  font-size: 32rpx;
+  font-weight: bold;
+  border-radius: 10rpx 10rpx 0 0;
+  letter-spacing: 4rpx;
+}
+
+/**用户信息**/
+
+.userinfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.userinfo-avatar {
+  width: 70rpx;
+  height: 70rpx;
+  margin: 20rpx 20rpx 20rpx 240rpx;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px 1px #ddd;
+}
+
+.userinfo-nickname {
+  display: flex;
+  color: #fff;
+  font-size: 32rpx;
+  font-family: sans-serif;
+}
+
+/*二维码  */
+
+.QRcode {
+  width: 500rpx;
+  margin-top: 100rpx;
+}
+
+.QRcode image {
+  width: 100%;
+}
+
+/*自动刷新  */
+
+.surpass {
+  margin-top: 40rpx;
+  width: 60%;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.surpass image {
+  width: 44rpx;
+  height: 44rpx;
+  margin-right: 10rpx;
+}

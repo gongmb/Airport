@@ -1,0 +1,29 @@
+<!--导入页脚  -->
+<import src="../footer-template/footer-template.wxml" />
+<!--index.wxml-->
+<!-- 头像用户 -->
+<view class="userinfo">
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  <text class="userinfo-nickname">
+    <text>陈席希</text>
+  </text>
+</view>
+<view class='content'>
+  <view class="container">
+    <!--巴士机场出行码 -->
+    <view class='noticeContainer'>
+      <text>机场巴士出行码</text>
+    </view>
+    <!-- 二维码 -->
+    <view class='QRcode'>
+      <image src='/images/QRcode.png'></image>
+    </view>
+    <!--自动刷新  -->
+    <view class='surpass flexRow'>
+      <image src='/images/surpass.png'></image>
+      <text>每三分钟自动更新</text>
+    </view>
+    <!-- 页脚：开通路线|个人中心 -->
+    <template is="footerTemplate" />
+  </view>
+</view>

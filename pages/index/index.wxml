@@ -1,0 +1,48 @@
+<!--导入页脚  -->
+<import src="../footer-template/footer-template.wxml" />
+<!--index.wxml-->
+<!-- 头像用户 -->
+<view class="userinfo">
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  <text class="userinfo-nickname">
+    <text>陈席希</text>
+  </text>
+  <image class='location' src='/images/pic.png'><text>长春</text></image>
+</view>
+<view class='content'>
+  <view class="container">
+    <!--通知公告容器 -->
+    <view class='noticeContainer'>
+      <view class='notice_icon'>
+        <text>通知公告：</text>
+      </view>
+      <!--通知公告轮播 -->
+      <swiper class='noticeSwiper' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{noticeList}}">
+          <swiper-item>
+            <text>{{item.information_content}}</text>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <!-- 广告位 -->
+    <view class='advertContainer'>
+      <!--广告轮播 -->
+      <swiper class='advertSwiper' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="5000" duration="{{duration}}">
+        <block wx:for="{{advertList}}">
+          <swiper-item>
+            <image src="{{item.advertisement_image}}" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <!-- 快速乘车 -->
+    <view bindtap='goRideCar' class='rideCarContainer'>
+      <view>
+        <text>快速乘车</text>
+      </view>
+    </view>
+    <!-- 页脚：开通路线|个人中心 -->
+    <template is="footerTemplate" />
+  </view>
+</view>
